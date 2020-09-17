@@ -1,0 +1,83 @@
+body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightskyblue;
+}
+
+.navbar {
+    background-color: rgb(250, 230, 247);
+    border-radius: 0;
+    border: 0;
+}
+
+#navbar button {
+    margin-top: 22px;
+}
+
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
+    background-color: moccasin;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: palegoldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.navbar-nav a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.navbar-nav {
+    background-color: palevioletred;
+    list-style: none;
+}
+
+.navbar-nav a {
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.2em;
+}
+
+#navbar-nav a:hover {
+    color: white;
+    background-color: burlywood;
+}
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: 1.6em;
+    margin-bottom: 1em;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main-section {
+    background-color: burlywood;
+    box-shadow: 0 0 80px rgb(118, 118, 241);
+    padding: 30px;
+}
